@@ -1,0 +1,11 @@
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a (click)="selectTab('Tab-1')" [ngClass]="{'active':selectedTab==='Tab-1'}" class="nav-link" aria-current="page" >Tab-1</a>
+  </li>
+  <li class="nav-item">
+    <a (click)="selectTab('Tab-2')" [ngClass]="{'active':selectedTab==='Tab-2'}" class="nav-link" >Tab-2</a>
+  </li>
+  <li class="nav-item">
+    <a (click)="selectTab('Tab-3')" [ngClass]="{'active':selectedTab==='Tab-3'}" class="nav-link" >Tab-3</a>
+  </li>
+</ul>
